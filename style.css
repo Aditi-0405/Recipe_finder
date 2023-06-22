@@ -116,8 +116,9 @@ align-items: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50rem; /* Adjust the width as per your preference */
+    width: auto; /* Adjust the width as per your preference */
     /* height: 20rem; */
+    max-width: 50rem;
     margin: 2rem auto; /* Centers the card horizontally */
     padding: 20px;
     border: 5px solid #ccc;
