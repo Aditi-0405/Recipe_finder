@@ -1,0 +1,125 @@
+body{
+    background-color:cadetblue;
+}
+.content{
+    min-height: 50vh;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+html {
+    scroll-behavior: smooth;
+}
+.search{
+    border-radius: 10px;
+    width: 500px;
+    /* margin: 100px; */
+    margin-top: 100px;
+    padding: 4px 10px;
+
+    
+
+}
+.butt{
+   padding: 0%;
+   /* background-color: aqua; */
+   margin-top: 100px;
+   margin-left: 20px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.origin{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.dish{
+    width:400px;
+}
+.content{
+    display: grid;
+    justify-content: center;
+    margin-top: 30px; 
+    align-items: center;
+}
+/* #recipie{
+  
+display: flex;
+
+color: aqua;
+margin-left: 200px;
+    
+    
+} */
+.ingridients{
+    display: grid;
+    justify-content: center;
+    margin-top:0px; 
+    align-items: center;
+    
+}
+.imgingri{
+    width:30%;
+    margin-left: 10px;
+}
+.ingridients{
+  
+  
+    /* margin-top: -250px; */
+    align-items: center;
+}
+ul  {
+   display: grid;
+   grid-template-columns: auto auto;
+ 
+   font-size: small;
+   
+   
+  }
+  ul li {
+   
+    /* gap: 8 em 1.1 em; */
+    font-size: larger;
+    padding:  1.2em;
+    position: relative;
+    
+   }
+.reci_butt{
+min-height: 20vh;
+margin-top: 0px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.ing_head{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+.ingr_list{
+    margin-top: 30px;
+}
+#r_list{
+    max-width: 50px;
+}
+#recipie pre{
+    white-space: pre-wrap;
+}
+#recipie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50rem; /* Adjust the width as per your preference */
+    /* height: 20rem; */
+    margin: 2rem auto; /* Centers the card horizontally */
+    padding: 20px;
+    border: 5px solid #ccc;
+    border-radius: 5px;
+  }
